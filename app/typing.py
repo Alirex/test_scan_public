@@ -1,0 +1,18 @@
+import pathlib
+from typing import List, Union, Dict
+
+T_QUERY = str
+T_QUERIES = List[T_QUERY]
+
+T_DOMAIN = str
+T_DOMAINS = List[T_DOMAIN]
+
+T_BASE_URL = str
+T_URL = str
+
+T_REQUEST_RESULT = Union[int, str]
+T_REQUEST_RESULTS = List[T_REQUEST_RESULT]
+T_RESULTS_FOR_DOMAIN = Dict[T_DOMAIN, T_REQUEST_RESULTS]
+T_RESULTS_FOR_DOMAINS = T_RESULTS_FOR_DOMAIN
+
+T_PATH_TO_REPORT = pathlib.Path

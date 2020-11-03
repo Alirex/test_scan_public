@@ -1,0 +1,8 @@
+# [requests]-[BEGIN]
+aiohttp==3.7.2
+# [requests]-[END]
+
+# [logs]-[BEGIN]
+structlog==20.1.0
+colorama==0.4.4
+# [logs]-[END]
